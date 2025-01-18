@@ -28,6 +28,7 @@ type EventType =
     | "organization.updated"
     | "organization.deleted";
 
+
 type Event = {
     data: Record<string, string | number | Record<string, string>[]>;
     object: "event";
